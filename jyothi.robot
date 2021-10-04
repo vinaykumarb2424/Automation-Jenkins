@@ -9,6 +9,7 @@ ${url}    https://demo.nopcommerce.com/
 *** Test Cases ***
 Launch
     LoginCustomer
+
 *** Keywords ***
 LoginCustomer
     Open Browser  ${url}    ${browser}
